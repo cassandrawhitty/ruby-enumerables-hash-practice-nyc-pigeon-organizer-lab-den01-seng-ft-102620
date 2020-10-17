@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
   temp_names.push(pigeon_genders.values)
   names_1 = names[0][0]
   names_2 = names[0][1]
-  final_names = names_1.concat(names_2)
+  names = names_1.concat(names_2)
   
   binding.pry
 end
