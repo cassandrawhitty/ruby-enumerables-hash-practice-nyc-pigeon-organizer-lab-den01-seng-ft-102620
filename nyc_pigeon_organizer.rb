@@ -20,6 +20,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
+  pigeon_list = {}
   pigeon_genders = data[:gender]
   temp_names = [];
   temp_names.push(pigeon_genders.values)
