@@ -20,12 +20,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  pigeon_list = {}
-  i = 0
-  while i < data.length do
-    color_gender_lives = data[i]
-    return color_gender_lives
-  end
+  binding.pry
 end
 
 puts nyc_pigeon_organizer(pigeon_data)
