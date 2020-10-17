@@ -21,7 +21,7 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   pigeon_genders = data[:gender]
-  names;
+  names = [];
   names.push(pigeon_genders.values)
   binding.pry
 end
