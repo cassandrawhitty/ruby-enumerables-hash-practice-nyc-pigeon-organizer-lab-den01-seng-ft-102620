@@ -24,7 +24,6 @@ def nyc_pigeon_organizer(data)
       value.each do |inner_key, names|
         names.each do |name|
           if !final_array[name]
-            binding.pry
             final_array[name] = {}
           end
           if !final_array[name][key] 
@@ -33,8 +32,8 @@ def nyc_pigeon_organizer(data)
           final_array[name][key].push(inner_key)
         end
       end
-  final_array
   end
+  binding.pry
 end
 
 puts nyc_pigeon_organizer(pigeon_data)
