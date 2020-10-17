@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
   names_1 = names[0][0]
   names_2 = names[0][1]
   names = names_1.concat(names_2)
-  pigeon_list = Hash[array.collect {|item| [item, :]}]
+  pigeon_list = Hash[array.collect {|item| [item, ""]}]
   binding.pry
 end
 
