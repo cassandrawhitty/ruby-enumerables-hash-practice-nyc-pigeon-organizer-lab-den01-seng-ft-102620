@@ -23,8 +23,8 @@ def nyc_pigeon_organizer(data)
   pigeon_genders = data[:gender]
   temp_names = [];
   temp_names.push(pigeon_genders.values)
-  names_1 = names[0][0]
-  names_2 = names[0][1]
+  names_1 = temp_names[0][0]
+  names_2 = temp_names[0][1]
   names = names_1.concat(names_2)
   binding.pry
 end
