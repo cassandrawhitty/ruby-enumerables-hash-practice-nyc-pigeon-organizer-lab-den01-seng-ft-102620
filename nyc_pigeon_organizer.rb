@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
   pigeon_genders = data[:gender]
   pigeon_lives = data[:lives]
   names = [];
-  names.push(pigeon_colors.values, pigeon_genders.values, pigeon_lives.values)
+  names.push(pigeon_genders.values)
   binding.pry
 end
 
