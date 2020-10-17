@@ -23,6 +23,7 @@ def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), final_array|
   binding.pry
 end
+end
 
 puts nyc_pigeon_organizer(pigeon_data)
 
