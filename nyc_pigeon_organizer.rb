@@ -22,7 +22,7 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   pigeon_genders = data[:gender]
   temp_names = [];
-  names.push(pigeon_genders.values)
+  temp_names.push(pigeon_genders.values)
   names_1 = names[0][0]
   names_2 = names[0][1]
   final_names = names_1.concat(names_2)
