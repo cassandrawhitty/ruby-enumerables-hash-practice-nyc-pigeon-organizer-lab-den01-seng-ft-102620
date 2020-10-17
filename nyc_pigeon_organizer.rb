@@ -20,7 +20,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  
+  data.each_with_
   binding.pry
 end
 
