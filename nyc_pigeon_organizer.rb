@@ -20,14 +20,13 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  pigeon_list = {}
   pigeon_genders = data[:gender]
   temp_names = [];
   temp_names.push(pigeon_genders.values)
   names_1 = names[0][0]
   names_2 = names[0][1]
   names = names_1.concat(names_2)
-  hash = Hash[names.collect {|item| [item, ""]}]
+  pigeon_list = Hash[names.collect {|item| [item, ""]}]
   binding.pry
 end
 
