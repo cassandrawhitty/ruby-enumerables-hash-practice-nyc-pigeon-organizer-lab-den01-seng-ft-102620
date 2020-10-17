@@ -21,9 +21,6 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   binding.pry
-  pigeon_colors = data[:color]
-  pigeon_genders = data[:gender]
-  pigeon_lives = data[:lives]
 end
 
 puts nyc_pigeon_organizer(pigeon_data)
